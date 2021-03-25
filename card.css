@@ -1,0 +1,86 @@
+.app__data {
+    text-align: center;
+}
+
+.app__description {
+    margin-bottom: 2rem;
+}
+
+.app__stores {
+    margin-bottom: 2rem;
+}
+
+.app__store {
+    width: 120px;
+    margin: 0 .5rem;
+}
+
+.app__img {
+    width: 300px;
+    justify-self: center;
+    left: auto;
+}
+
+
+/*movile*/
+
+.section1 {
+    padding: 4rem 0 2rem;
+}
+
+.section1-title,
+.section1-subtitle {
+    text-align: center;
+}
+
+.section1-title {
+    font-size: 1.5rem;
+    color: coral;
+    margin-bottom: 1.5rem;
+}
+
+.section1-subtitle {
+    display: block;
+    color: darkgreen;
+    font-weight: 500;
+    margin-bottom: .5rem;
+}
+
+
+/*========== LAYOUT ==========*/
+
+.bd-container {
+    max-width: 960px;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.bd-container1 {
+    margin-right: 100px;
+    max-width: 960px;
+    width: calc(100% - 2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.bd-container2 {
+    margin-right: 200px;
+    width: calc(100% - 2rem);
+    margin-left: 20rem;
+    margin-right: 1rem;
+}
+
+.bd-grid {
+    display: grid;
+    gap: 0rem;
+}
+
+.l-header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: #324999;
+}
